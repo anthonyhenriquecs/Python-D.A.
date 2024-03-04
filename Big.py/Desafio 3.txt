@@ -1,0 +1,6 @@
+capacidade_atual, aumento_percentual = map(int, input().split())
+
+#// TODO: Calcule a nova capacidade do disco de Mithril
+aumento_percentual = ((aumento_percentual / 100) * capacidade_atual) + capacidade_atual
+print(int(aumento_percentual))
+#// TODO: Imprima a nova capacidade
